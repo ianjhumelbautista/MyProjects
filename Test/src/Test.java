@@ -8,11 +8,12 @@ public class Test {
 		
 		Map<String, String> mp = new HashMap<String, String>();
 		
-		mp.put("Ian", "Jhumel");
-		mp.put("Jackie", "Lou");
-		mp.put("Rhea", "Lyn");
 		
-		System.out.print("Map: " + mp.get("Jackie"));
+		mp.put("First", "Jhumel");
+		mp.put("Second", "Jackie");
+		mp.put("Third", "Rhea");
+		
+		System.out.print("Map: " + mp.get("First"));
 
 	}
 
